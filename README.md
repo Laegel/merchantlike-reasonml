@@ -1,24 +1,5 @@
-# Basic Reason Template
+# Merchantlike - ReasonML
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+A small side-project to learn ReasonML.
 
-# Build
-
-```bash
-# for yarn
-yarn build
-
-# for npm
-npm run build
-```
-
-# Build + Watch
-
-```bash
-# for yarn
-yarn start
-
-# for npm
-npm run start
-```
-
+Based on the awesome [Merchant game](https://merchantrpg.fandom.com/wiki/Merchant_Wiki).
