@@ -1,0 +1,31 @@
+{
+  "name": "merchantlike-reason",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "bsb -make-world",
+    "watch": "bsb -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "8.0.2",
+    "bsb-js": "^1.1.7",
+    "cross-env": "^7.0.2",
+    "parcel-plugin-static-files-copy": "^2.4.3"
+  },
+  "dependencies": {
+    "@glennsl/bs-jest": "^0.5.1",
+    "@glennsl/bs-json": "^5.0.2",
+    "@react-native-community/async-storage": "^1.11.0",
+    "@reason-react-native/async-storage": "^1.6.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "reason-react": "0.9.1"
+  }
+}

@@ -1,0 +1,3 @@
+type state = {
+  money: int
+};
